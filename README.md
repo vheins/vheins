@@ -1,18 +1,21 @@
 <div align="center"> 
    <img src="https://github-readme-stats.vercel.app/api?username=vheins&show_icons=true&theme=dracula" alt="Vheins Github Stats"> 
- </div> 
+</div> 
   
- <br> 
+<br> 
   
- <div align="center"> 
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vheins&theme=blue-green" alt="Vheins" /> 
- </div> 
+<div align="center"> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vheins&theme=blue-green" alt="Vheins" /> 
+</div> 
   
- <br> 
+<br> 
   
- <div align="center"> 
+<div align="center"> 
    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vheins&" alt="Vheins" /> 
- </div> 
+</div> 
   
- <br> 
+<br> 
   
+### 🚀 How to reach me: 
+
+---
