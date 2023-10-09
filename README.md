@@ -1,14 +1,18 @@
-<table>
-  <tr>
-    <td valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vheins&" alt="Vheins" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=vheins&count_private=true&show_icons=true" alt="Vheins Github Stats">
-    </td>
-    <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vheins&count_private=true" alt="Vheins" /><br/>
-    </td>
-  </tr>
-</table>
+```yaml
+Setup:
+  Pronouns: ["Mr","Sr"]
+  Technologies:
+    Backend:
+      PHP: ["Laravel","Code Igniter"]
+    Frontend:
+      Javascript: ["Vue JS","Nuxt JS"]
+      Stylesheet: ["UI Kit","Bootstrap"]
+    Database: ["Mysql","Maria DB","Postgree SQL"]
+    DevOps: ["NginX","Apache","Docker"]
+  Misc:
+    Python: "Odoo"
+    Place: "Bandung"
+```
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-718%20hrs%2019%20mins-blue)
