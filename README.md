@@ -15,15 +15,13 @@ AboutMe:
 ```
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C286%20hrs%2057%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C289%20hrs%2026%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 982 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -58,10 +56,14 @@ Sunday                   384 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+PHP                      1 hr 7 mins         ███████████░░░░░░░░░░░░░░   45.30 % 
+Vue.js                   49 mins             ████████░░░░░░░░░░░░░░░░░   33.27 % 
+JSON                     26 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.98 % 
+JavaScript               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
+shellscript              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  2 hrs 28 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in PHP** 
@@ -81,5 +83,5 @@ Dockerfile               5 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 08/03/2024 18:36:51 UTC
+ Last Updated on 09/03/2024 18:37:09 UTC
 <!--END_SECTION:waka-->
