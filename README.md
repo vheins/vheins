@@ -56,12 +56,10 @@ Sunday                   563 commits         ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-properties               3 mins              ██████████████░░░░░░░░░░░   54.70 % 
-YAML                     2 mins              ███████████░░░░░░░░░░░░░░   43.60 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.70 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  5 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in PHP** 
@@ -81,5 +79,5 @@ Dockerfile               6 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 12/04/2024 18:37:23 UTC
+ Last Updated on 13/04/2024 18:37:28 UTC
 <!--END_SECTION:waka-->
