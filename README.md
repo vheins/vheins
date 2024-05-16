@@ -15,7 +15,7 @@ AboutMe:
 ```
 ### Tropies:
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=vheins)](https://github.com/vheins)
+[![trophy](https://github-profile-trophy.vercel.app/?username=vheins&rank=-C,-B)](https://github.com/vheins)
 
 ### Languages and Tools:
 
