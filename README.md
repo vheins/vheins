@@ -52,8 +52,6 @@ AboutMe:
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 1,519 Contributions in the Year 2024
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 24 Public Repositories 
@@ -114,5 +112,5 @@ Shell                    2 repos             ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 09/06/2024 18:38:25 UTC
+ Last Updated on 10/06/2024 18:41:06 UTC
 <!--END_SECTION:waka-->
