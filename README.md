@@ -8,7 +8,7 @@ AboutMe:
       Javascript: ["Vue JS","Nuxt JS"]
       Stylesheet: ["UI Kit","Bootstrap"]
     Database: ["Mysql","Maria DB","Postgree SQL"]
-    DevOps: ["NginX","Apache","Docker"]
+    Engine: ["NginX","Apache","Docker"]
   Misc:
     Python: "Odoo"
     Place: "Bandung"
