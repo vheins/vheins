@@ -11,7 +11,7 @@ AboutMe:
     Engine: ["NginX","Apache","Docker"]
   Misc:
     Python: "Odoo"
-    Place: "Bandung"
+    Place: "Bandung, Indonesia"
 ```
 ### Tropies:
 
