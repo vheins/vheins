@@ -52,6 +52,8 @@ AboutMe:
 
 > 📦 ? Used in GitHub's Storage 
  > 
+> 🏆 283 Contributions in the Year 2025
+ > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 28 Public Repositories 
@@ -112,5 +114,5 @@ Jupyter Notebook         1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 01/02/2025 18:43:04 UTC
+ Last Updated on 02/02/2025 18:45:12 UTC
 <!--END_SECTION:waka-->
