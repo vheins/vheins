@@ -44,15 +44,13 @@ AboutMe:
 ### Wakatime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C024%20hrs%2054%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C028%20hrs%2018%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 3,162 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -87,14 +85,14 @@ Sunday                   1180 commits        ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-PHP                      24 hrs 49 mins      █████████████████░░░░░░░░   66.82 % 
-Vue.js                   4 hrs 23 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.84 % 
-JSON                     2 hrs 22 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.41 % 
-JavaScript               1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 % 
-Other                    1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   02.75 % 
+PHP                      23 hrs 30 mins      ██████████████████░░░░░░░   71.02 % 
+Vue.js                   4 hrs 58 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.03 % 
+JavaScript               1 hr 9 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 % 
+JSON                     55 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
+Other                    33 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
 
 🔥 Editors: 
-VS Code                  37 hrs 9 mins       █████████████████████████   100.00 % 
+VS Code                  33 hrs 6 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in PHP** 
@@ -114,5 +112,5 @@ Jupyter Notebook         1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 25/07/2025 18:58:08 UTC
+ Last Updated on 26/07/2025 18:54:43 UTC
 <!--END_SECTION:waka-->
