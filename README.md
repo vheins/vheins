@@ -44,7 +44,7 @@ AboutMe:
 ### Wakatime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C218%20hrs%209%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C219%20hrs%2024%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -52,51 +52,14 @@ AboutMe:
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 4,319 Contributions in the Year 2025
+> 🏆 4,320 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 29 Public Repositories 
+> 📜 30 Public Repositories 
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                7061 commits        ██████░░░░░░░░░░░░░░░░░░░   24.49 % 
-🌆 Daytime                12802 commits       ███████████░░░░░░░░░░░░░░   44.39 % 
-🌃 Evening                8205 commits        ███████░░░░░░░░░░░░░░░░░░   28.45 % 
-🌙 Night                  770 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   02.67 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   5017 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.40 % 
-Tuesday                  4927 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.09 % 
-Wednesday                5349 commits        █████░░░░░░░░░░░░░░░░░░░░   18.55 % 
-Thursday                 4243 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.71 % 
-Friday                   4307 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.94 % 
-Saturday                 2565 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.89 % 
-Sunday                   2430 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.43 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Jakarta
-
-💬 Programming Languages: 
-PHP                      7 hrs 20 mins       ████████████░░░░░░░░░░░░░   47.91 % 
-Mermaid                  5 hrs 46 mins       █████████░░░░░░░░░░░░░░░░   37.62 % 
-JSON                     43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.71 % 
-Vue.js                   22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.45 % 
-Markdown                 12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
-
-🔥 Editors: 
-VS Code                  15 hrs 20 mins      █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in PHP** 
 
 ```text
@@ -114,5 +77,5 @@ Shell                    2 repos             ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/vheins/vheins/main/assets/bar_graph.png)
 
 
- Last Updated on 19/09/2025 18:53:12 UTC
+ Last Updated on 20/09/2025 18:50:31 UTC
 <!--END_SECTION:waka-->
