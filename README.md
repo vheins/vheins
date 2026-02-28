@@ -4,6 +4,7 @@ AboutMe:
   Technologies:
     Backend:
       PHP: ["Laravel","Code Igniter"]
+      Javascript: ["Nest JS"]
     Frontend:
       Javascript: ["Vue JS","Nuxt JS"]
       Stylesheet: ["UI Kit","Bootstrap"]
