@@ -1,8 +1,10 @@
 <div align="center">
 
-# Muhammad Rheza Alfin
+<img width="100%" alt="Muhammad Rheza Alfin" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,48:0EA5E9,100:F97316&amp;height=165&amp;section=header&amp;text=Muhammad%20Rheza%20Alfin&amp;fontSize=36&amp;fontColor=F0F6FC&amp;animation=fadeIn&amp;fontAlignY=36" />
 
-### Technical Leader · Full-Stack Engineer · AI-Agent Systems Builder
+<img width="100%" alt="Animated terminal introducing Vheins and his engineering focus" src="https://raw.githubusercontent.com/vheins/vheins/main/assets/terminal-banner.svg" />
+
+<br />
 
 I build dependable business systems and developer tools at the intersection of  
 **application architecture, infrastructure, automation, and AI-assisted engineering.**
@@ -29,7 +31,7 @@ I build dependable business systems and developer tools at the intersection of
 | Project | What it does |
 | :--- | :--- |
 | [**Local Memory MCP**](https://github.com/vheins/local-memory-mcp) | Local-first memory and codebase intelligence for AI agents, featuring semantic search, task coordination, knowledge graphs, and tree-sitter indexing. |
-| [**RustaSea**](https://github.com/rustasea/rustasea) | An expressive Rust application framework combining Laravel-inspired ergonomics with Rust-native safety, performance, and concurrency. |
+| [**Rustasea**](https://github.com/rustasea/rustasea) | An expressive Rust application framework combining Laravel-inspired ergonomics with Rust-native safety, performance, and concurrency. |
 | [**OpenCode Autopilot**](https://github.com/vheins/opencode-autopilot) | Stateful autonomous development loops that plan, generate, review, test, and commit through explicit quality gates. |
 | [**OpenCode 9Router**](https://github.com/vheins/opencode-9router) | A type-safe OpenCode provider with dynamic model discovery, smart caching, multi-provider support, and resilient fallback. |
 
@@ -51,7 +53,7 @@ I build dependable business systems and developer tools at the intersection of
 
 ## Current direction
 
-- Building **RustaSea** as a productive, Rust-native application framework.
+- Building **Rustasea** as a productive, Rust-native application framework.
 - Expanding **Local Memory MCP** into a lightweight shared intelligence layer for agents and orchestrators.
 - Exploring reliable autonomous coding workflows with strong review, testing, and recovery boundaries.
 - Continuing to design maintainable ERP and operational systems for real-world business processes.
