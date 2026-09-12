@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title description" xml:space="preserve">
   <title id="title">Vheins engineering profile terminal</title>
-  <desc id="description">An animated terminal introducing Muhammad Rheza Alfin, his current projects, and his engineering philosophy.</desc>
+  <desc id="description">A four-scene animated terminal introducing Muhammad Rheza Alfin, his application stack, infrastructure expertise, open-source projects, and engineering philosophy.</desc>
 
   <defs>
     <linearGradient id="frame-gradient" x1="0" y1="0" x2="1" y2="1">
@@ -21,34 +21,25 @@
       </feMerge>
     </filter>
 
-    <clipPath id="line-1-clip">
+    <!-- The four scenes share this seven-second typewriter timeline. -->
+    <clipPath id="row-1-clip">
       <rect x="40" y="57" width="0" height="28">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;248;248;248;0" keyTimes="0;0.02;0.12;0.94;0.98;1" />
+        <animate attributeName="width" dur="7s" repeatCount="indefinite" values="0;0;405;405;405;0" keyTimes="0;0.02;0.14;0.96;0.99;1" />
       </rect>
     </clipPath>
-    <clipPath id="line-2-clip">
+    <clipPath id="row-2-clip">
       <rect x="40" y="89" width="0" height="29">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;505;505;505;0" keyTimes="0;0.13;0.29;0.94;0.98;1" />
+        <animate attributeName="width" dur="7s" repeatCount="indefinite" values="0;0;890;890;890;0" keyTimes="0;0.15;0.35;0.96;0.99;1" />
       </rect>
     </clipPath>
-    <clipPath id="line-3-clip">
-      <rect x="40" y="127" width="0" height="28">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;330;330;330;0" keyTimes="0;0.3;0.4;0.94;0.98;1" />
+    <clipPath id="row-3-clip">
+      <rect x="40" y="135" width="0" height="28">
+        <animate attributeName="width" dur="7s" repeatCount="indefinite" values="0;0;405;405;405;0" keyTimes="0;0.42;0.55;0.96;0.99;1" />
       </rect>
     </clipPath>
-    <clipPath id="line-4-clip">
-      <rect x="40" y="159" width="0" height="29">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;710;710;710;0" keyTimes="0;0.41;0.62;0.94;0.98;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="line-5-clip">
-      <rect x="40" y="197" width="0" height="28">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;300;300;300;0" keyTimes="0;0.63;0.72;0.94;0.98;1" />
-      </rect>
-    </clipPath>
-    <clipPath id="line-6-clip">
-      <rect x="40" y="229" width="0" height="29">
-        <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;735;735;735;0" keyTimes="0;0.73;0.91;0.94;0.98;1" />
+    <clipPath id="row-4-clip">
+      <rect x="40" y="167" width="0" height="29">
+        <animate attributeName="width" dur="7s" repeatCount="indefinite" values="0;0;890;890;890;0" keyTimes="0;0.56;0.8;0.96;0.99;1" />
       </rect>
     </clipPath>
   </defs>
@@ -58,10 +49,14 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 18px;
     }
-    .reduced-motion { display: none; }
+    .scene-meta {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+    }
+    .reduced-motion, .reduced-status { display: none; }
     @media (prefers-reduced-motion: reduce) {
-      .animated-content, .scanline { display: none; }
-      .reduced-motion { display: block; }
+      .animated-content, .scanline, .status-pulse { display: none; }
+      .reduced-motion, .reduced-status { display: block; }
     }
   </style>
 
@@ -75,45 +70,73 @@
   <circle cx="66" cy="23" r="6" fill="#28c840" />
   <text x="88" y="29" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">vheins@github — ~/profile</text>
 
-  <g transform="translate(827 23)">
+  <g class="status-pulse" transform="translate(827 23)">
     <circle cx="0" cy="0" r="4" fill="#3fb950" filter="url(#soft-glow)">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
     </circle>
     <text x="12" y="5" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">orchestrating</text>
   </g>
+  <g class="reduced-status" transform="translate(827 23)">
+    <circle cx="0" cy="0" r="4" fill="#3fb950" />
+    <text x="12" y="5" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">ready</text>
+  </g>
 
   <rect class="scanline" x="3" y="45" width="994" height="38" fill="url(#scan-gradient)" pointer-events="none">
-    <animate attributeName="y" values="45;240;45" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="y" values="45;220;45" dur="6s" repeatCount="indefinite" />
   </rect>
 
   <g class="animated-content terminal-text">
-    <text x="40" y="79" clip-path="url(#line-1-clip)">
-      <tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">whoami</tspan>
-    </text>
-    <text x="40" y="111" fill="#7ee787" clip-path="url(#line-2-clip)">Technical Leader · Full-Stack Engineer</text>
+    <!-- Scene 1: identity -->
+    <g opacity="1">
+      <animate attributeName="opacity" dur="28s" repeatCount="indefinite" calcMode="discrete" values="1;0;0;0;1" keyTimes="0;0.25;0.5;0.75;1" />
+      <text x="40" y="79" clip-path="url(#row-1-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">whoami</tspan></text>
+      <text x="40" y="111" fill="#7ee787" clip-path="url(#row-2-clip)">Muhammad Rheza Alfin · Technical Leader</text>
+      <text x="40" y="157" clip-path="url(#row-3-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">role --scope</tspan></text>
+      <text x="40" y="189" fill="#7ee787" clip-path="url(#row-4-clip)">Full-Stack Engineering · Architecture · Consulting</text>
+      <text x="40" y="252" fill="#8b949e" class="scene-meta">scene 1/4 · identity</text>
+      <rect x="814" y="248" width="28" height="4" rx="2" fill="#3fb950" /><rect x="850" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="886" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="922" y="248" width="28" height="4" rx="2" fill="#30363d" />
+    </g>
 
-    <text x="40" y="149" clip-path="url(#line-3-clip)">
-      <tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">focus --current</tspan>
-    </text>
-    <text x="40" y="181" fill="#ffa657" clip-path="url(#line-4-clip)">Local Memory MCP · Rustasea · AI-Agent Infrastructure</text>
+    <!-- Scene 2: application stack -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="28s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0;0" keyTimes="0;0.25;0.5;0.75;1" />
+      <text x="40" y="79" clip-path="url(#row-1-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">stack --application</tspan></text>
+      <text x="40" y="111" fill="#79c0ff" clip-path="url(#row-2-clip)">Laravel · PHP · Filament · Livewire · Vue · Nuxt · NestJS</text>
+      <text x="40" y="157" clip-path="url(#row-3-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">stack --data</tspan></text>
+      <text x="40" y="189" fill="#79c0ff" clip-path="url(#row-4-clip)">PostgreSQL · MySQL · Redis · REST APIs · Queues</text>
+      <text x="40" y="252" fill="#8b949e" class="scene-meta">scene 2/4 · application</text>
+      <rect x="814" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="850" y="248" width="28" height="4" rx="2" fill="#58a6ff" /><rect x="886" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="922" y="248" width="28" height="4" rx="2" fill="#30363d" />
+    </g>
 
-    <text x="40" y="219" clip-path="url(#line-5-clip)">
-      <tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">philosophy</tspan>
-    </text>
-    <text x="40" y="251" fill="#d2a8ff" clip-path="url(#line-6-clip)">simplify → automate → optimize → reuse → orchestrate</text>
+    <!-- Scene 3: infrastructure and expertise -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="28s" repeatCount="indefinite" calcMode="discrete" values="0;0;1;0;0" keyTimes="0;0.25;0.5;0.75;1" />
+      <text x="40" y="79" clip-path="url(#row-1-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">stack --infrastructure</tspan></text>
+      <text x="40" y="111" fill="#ffa657" clip-path="url(#row-2-clip)">Linux · Docker · Nginx · HAProxy · Patroni · PHP-FPM</text>
+      <text x="40" y="157" clip-path="url(#row-3-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">specialize</tspan></text>
+      <text x="40" y="189" fill="#ffa657" clip-path="url(#row-4-clip)">ERP Architecture · Performance Tuning · Integration · Automation</text>
+      <text x="40" y="252" fill="#8b949e" class="scene-meta">scene 3/4 · systems</text>
+      <rect x="814" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="850" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="886" y="248" width="28" height="4" rx="2" fill="#f97316" /><rect x="922" y="248" width="28" height="4" rx="2" fill="#30363d" />
+    </g>
 
-    <rect x="657" y="234" width="10" height="20" rx="1" fill="#c9d1d9">
-      <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.5;0.5;1" />
-      <animate attributeName="visibility" dur="12s" repeatCount="indefinite" values="hidden;hidden;visible;visible;hidden" keyTimes="0;0.73;0.91;0.97;1" />
-    </rect>
+    <!-- Scene 4: open source and philosophy -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="28s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;1;0" keyTimes="0;0.25;0.5;0.75;1" />
+      <text x="40" y="79" clip-path="url(#row-1-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">building --open-source</tspan></text>
+      <text x="40" y="111" fill="#d2a8ff" clip-path="url(#row-2-clip)">Local Memory MCP · Rustasea · OpenCode Tooling</text>
+      <text x="40" y="157" clip-path="url(#row-3-clip)"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">philosophy</tspan></text>
+      <text x="40" y="189" fill="#d2a8ff" clip-path="url(#row-4-clip)">simplify → automate → optimize → reuse → orchestrate</text>
+      <text x="40" y="252" fill="#8b949e" class="scene-meta">scene 4/4 · open source</text>
+      <rect x="814" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="850" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="886" y="248" width="28" height="4" rx="2" fill="#30363d" /><rect x="922" y="248" width="28" height="4" rx="2" fill="#d2a8ff" />
+    </g>
   </g>
 
+  <!-- Accessible static summary when the viewer asks for reduced motion. -->
   <g class="reduced-motion terminal-text">
-    <text x="40" y="79"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">whoami</tspan></text>
-    <text x="40" y="111" fill="#7ee787">Technical Leader · Full-Stack Engineer</text>
-    <text x="40" y="149"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">focus --current</tspan></text>
-    <text x="40" y="181" fill="#ffa657">Local Memory MCP · Rustasea · AI-Agent Infrastructure</text>
-    <text x="40" y="219"><tspan fill="#58a6ff">vheins@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#f0f6fc">philosophy</tspan></text>
-    <text x="40" y="251" fill="#d2a8ff">simplify → automate → optimize → reuse → orchestrate</text>
+    <text x="40" y="79" fill="#7ee787">Muhammad Rheza Alfin · Technical Leader · Full-Stack Engineer</text>
+    <text x="40" y="119" fill="#79c0ff">Laravel · Rust · Vue · PostgreSQL · Linux · Docker</text>
+    <text x="40" y="159" fill="#ffa657">ERP Architecture · Performance · Integration · Automation</text>
+    <text x="40" y="199" fill="#d2a8ff">Local Memory MCP · Rustasea · OpenCode Tooling</text>
+    <text x="40" y="244" fill="#8b949e" class="scene-meta">simplify → automate → optimize → reuse → orchestrate</text>
   </g>
 </svg>
