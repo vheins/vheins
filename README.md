@@ -2,7 +2,7 @@
 
 <img width="100%" alt="Muhammad Rheza Alfin" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,48:0EA5E9,100:F97316&amp;height=165&amp;section=header&amp;text=Muhammad%20Rheza%20Alfin&amp;fontSize=36&amp;fontColor=F0F6FC&amp;animation=fadeIn&amp;fontAlignY=36" />
 
-<img width="100%" alt="Animated terminal introducing Vheins and his engineering focus" src="https://raw.githubusercontent.com/vheins/vheins/main/assets/terminal-banner.svg" />
+<img width="100%" alt="Animated terminal introducing Vheins and his engineering focus" src="https://raw.githubusercontent.com/vheins/vheins/main/assets/terminal-banner.svg?v=2" />
 
 <br />
 
