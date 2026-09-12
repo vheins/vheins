@@ -64,7 +64,7 @@ I build dependable business systems and developer tools at the intersection of
 <br />
 
 <!--START_SECTION:waka-->
-<!-- Metrics are updated automatically by GitHub Actions. -->
+_Metrics refresh automatically through GitHub Actions._
 <!--END_SECTION:waka-->
 
 </details>
