@@ -13,6 +13,10 @@ I build dependable business systems and developer tools at the intersection of
 [![GitHub followers](https://img.shields.io/github/followers/vheins?style=flat-square&color=181717&label=Followers)](https://github.com/vheins?tab=followers)
 [![Location](https://img.shields.io/badge/Indonesia-111827?style=flat-square&logo=googlemaps&logoColor=white)](https://github.com/vheins)
 
+<br />
+
+[![Hire me on Fastwork](https://img.shields.io/badge/Hire_me_on-Fastwork-0EA5E9?style=for-the-badge)](https://fastwork.id/user/vheins)
+
 </div>
 
 ---
@@ -58,6 +62,12 @@ I build dependable business systems and developer tools at the intersection of
 - Exploring reliable autonomous coding workflows with strong review, testing, and recovery boundaries.
 - Continuing to design maintainable ERP and operational systems for real-world business processes.
 
+## Work with me
+
+Need help with **ERP, Laravel, Odoo, performance tuning, system integration, infrastructure, or AI-enabled engineering workflows**?
+
+[**View my services and start a project on Fastwork →**](https://fastwork.id/user/vheins)
+
 ## Development activity
 
 <details>
@@ -77,6 +87,6 @@ _Metrics refresh automatically through GitHub Actions._
 
 ### Build systems that do more work with less human repetition.
 
-[Explore my repositories](https://github.com/vheins?tab=repositories) · [Follow my work](https://github.com/vheins)
+[Hire me on Fastwork](https://fastwork.id/user/vheins) · [Explore my repositories](https://github.com/vheins?tab=repositories) · [Follow my work](https://github.com/vheins)
 
 </div>
