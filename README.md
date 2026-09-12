@@ -32,12 +32,12 @@ I build dependable business systems and developer tools at the intersection of
 
 ## Featured work
 
-| Project | What it does |
-| :--- | :--- |
-| [**Local Memory MCP**](https://github.com/vheins/local-memory-mcp) | Local-first memory and codebase intelligence for AI agents, featuring semantic search, task coordination, knowledge graphs, and tree-sitter indexing. |
-| [**Rustasea**](https://github.com/rustasea/rustasea) | An expressive Rust application framework combining Laravel-inspired ergonomics with Rust-native safety, performance, and concurrency. |
-| [**OpenCode Autopilot**](https://github.com/vheins/opencode-autopilot) | Stateful autonomous development loops that plan, generate, review, test, and commit through explicit quality gates. |
-| [**OpenCode 9Router**](https://github.com/vheins/opencode-9router) | A type-safe OpenCode provider with dynamic model discovery, smart caching, multi-provider support, and resilient fallback. |
+| Logo | Project | What it does |
+| :---: | :--- | :--- |
+| <img src="https://raw.githubusercontent.com/vheins/vheins/main/assets/featured/local-memory-mcp.svg?v=1" width="52" alt="Local Memory MCP icon" /> | [**Local Memory MCP**](https://github.com/vheins/local-memory-mcp) | Local-first memory and codebase intelligence for AI agents, featuring semantic search, task coordination, knowledge graphs, and tree-sitter indexing. |
+| <img src="https://github.com/rustasea.png?size=96" width="52" alt="Rustasea logo" /> | [**Rustasea**](https://github.com/rustasea/rustasea) | An expressive Rust application framework combining Laravel-inspired ergonomics with Rust-native safety, performance, and concurrency. |
+| <img src="https://raw.githubusercontent.com/vheins/vheins/main/assets/featured/opencode-autopilot.svg?v=1" width="52" alt="OpenCode Autopilot icon" /> | [**OpenCode Autopilot**](https://github.com/vheins/opencode-autopilot) | Stateful autonomous development loops that plan, generate, review, test, and commit through explicit quality gates. |
+| <img src="https://raw.githubusercontent.com/vheins/vheins/main/assets/featured/opencode-9router.png?v=1" width="52" alt="OpenCode 9Router icon" /> | [**OpenCode 9Router**](https://github.com/vheins/opencode-9router) | A type-safe OpenCode provider with dynamic model discovery, smart caching, multi-provider support, and resilient fallback. |
 
 ## Technology focus
 
